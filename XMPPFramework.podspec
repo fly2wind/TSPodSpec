@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   s.requires_arc = true
  
   #TODO exclude #XMPPFramework.h
-  s.source_files = 'Authentication/**/*.{h,m}','Categories','Core','Utilities','Extensions/Reconnect/*.{h,m}','Vendor/libidn/*.h'
-  s.ios.source_files = 'Authentication/**/*.{h,m}','Categories','Core','Utilities','Extensions/Reconnect/*.{h,m}','Vendor/libidn/*.h','Vendor/KissXML/**/*.{h,m}'
+  s.source_files = 'Authentication/**/*.{h,m}','Categories','Core','Utilities','Extensions/Reconnect/*.{h,m}','Extensions/XEP-0203/*.{h,m}','Vendor/libidn/*.h'
+  s.ios.source_files = 'Authentication/**/*.{h,m}','Categories','Core','Utilities','Extensions/Reconnect/*.{h,m}','Extensions/XEP-0203/*.{h,m}','Vendor/libidn/*.h','Vendor/KissXML/**/*.{h,m}'
   s.resource = "Vendor/libidn/libidn.a"
 
   s.libraries = 'xml2','resolv','idn'
