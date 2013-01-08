@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name = 'UMeng'
+  s.name = 'UMAnalytics'
   s.version = '2.1.3'
   s.license = { :type => 'Copyright', :text => 'LICENSE Copyright 2009 - 2012 UMeng.com, Inc. All rights reserved.' }
   s.summary = 'UMeng analytics SDK for iOS'
@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
   s.resource = "Analytics_iOS_SDK_2.1.3.OpenUDID/*.a"
   #s.preserve_paths = 'UMAnalytics'
 
-  s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '$(PODS_ROOT)/UMeng/UMAnalytics' }
+  s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '$(PODS_ROOT)/UMAnalytics/Analytics_iOS_SDK_2.1.3.OpenUDID' }
 end
