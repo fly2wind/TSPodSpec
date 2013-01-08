@@ -9,8 +9,8 @@ Pod::Spec.new do |s|
   s.description = 'UMeng analytics SDK.'
 
   s.platform = :ios
-  s.source_files = 'Analytics_iOS_SDK_2.1.3.OpenUDID/*.h'
-  s.resource = "Analytics_iOS_SDK_2.1.3.OpenUDID/*.a"
+  s.source_files = 'Analytics_iOS_SDK_2.1.3.OpenUDID/UMAnalytics_Sdk_2.1.3.OpenUDID/*.h'
+  s.resource = "Analytics_iOS_SDK_2.1.3.OpenUDID/UMAnalytics_Sdk_2.1.3.OpenUDID/*.a"
   s.preserve_paths = 'Analytics_iOS_SDK_2.1.3.OpenUDID'
 
   s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '$(PODS_ROOT)/UMAnalytics/Analytics_iOS_SDK_2.1.3.OpenUDID' }
