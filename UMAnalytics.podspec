@@ -10,9 +10,11 @@ Pod::Spec.new do |s|
 
   s.platform = :ios
   s.source_files = 'Analytics_iOS_SDK_2.1.3.OpenUDID/UMAnalytics_Sdk_2.1.3.OpenUDID/*.h'
-  s.preserve_paths = 'Analytics_iOS_SDK_2.1.3.OpenUDID'
+  s.resource = 'Analytics_iOS_SDK_2.1.3.OpenUDID/UMAnalytics_Sdk_2.1.3.OpenUDID/*.a'
   
   s.framework = %w{libz.dylib}
+  
   s.library = 'MobClickLibrary'
+  
   s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '$(PODS_ROOT)/UMAnalytics/Analytics_iOS_SDK_2.1.3.OpenUDID/Analytics_iOS_SDK_2.1.3.OpenUDID' }
 end
