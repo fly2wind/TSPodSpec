@@ -16,5 +16,5 @@ Pod::Spec.new do |s|
   
   s.library = 'MobClickLibrary'
   
-  s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '$(PODS_ROOT)/UMAnalytics/Analytics_iOS_SDK_2.1.3.OpenUDID/Analytics_iOS_SDK_2.1.3.OpenUDID' }
+  s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '$(PODS_ROOT)/UMAnalytics/Analytics_iOS_SDK_2.1.3.OpenUDID/UMAnalytics_Sdk_2.1.3.OpenUDID' }
 end
