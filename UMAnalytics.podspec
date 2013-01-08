@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.license = { :type => 'Copyright', :text => 'LICENSE Copyright 2009 - 2012 UMeng.com, Inc. All rights reserved.' }
   s.summary = 'UMeng analytics SDK for iOS'
   s.homepage = 'http://dev.umeng.com/'
-  s.author = 'iamdaiyuan'
+  s.author = 'Shawn Ma'
   s.source = { :http => 'http://dev.umeng.com/files/download/Analytics_iOS_SDK_2.1.3.OpenUDID.zip' }
   s.description = 'UMeng analytics SDK.'
 
@@ -12,9 +12,7 @@ Pod::Spec.new do |s|
   s.source_files = 'Analytics_iOS_SDK_2.1.3.OpenUDID/UMAnalytics_Sdk_2.1.3.OpenUDID/*.h'
   s.resource = 'Analytics_iOS_SDK_2.1.3.OpenUDID/UMAnalytics_Sdk_2.1.3.OpenUDID/*.a'
   
-  s.framework = %w{libz.dylib}
-  
-  s.library = 'MobClickLibrary'
+  s.library = 'z','MobClickLibrary'
   
   s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '$(PODS_ROOT)/UMAnalytics/Analytics_iOS_SDK_2.1.3.OpenUDID/UMAnalytics_Sdk_2.1.3.OpenUDID' }
 end
