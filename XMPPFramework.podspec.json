@@ -70,27 +70,21 @@
       "name": "Authentication",
       "source_files": "Authentication/**/*.{h,m}",
       "dependencies": {
-        "XMPPFramework/Core": [
-
-        ]
+        
       }
     },
     {
       "name": "Categories",
       "source_files": "Categories/**/*.{h,m}",
       "dependencies": {
-        "XMPPFramework/Core": [
-
-        ]
+        
       }
     },
     {
       "name": "Utilities",
       "source_files": "Utilities/**/*.{h,m}",
       "dependencies": {
-        "XMPPFramework/Core": [
-
-        ]
+        
       }
     },
     {
