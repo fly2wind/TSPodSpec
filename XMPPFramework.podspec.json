@@ -97,9 +97,7 @@
       "name": "KissXML",
       "source_files": "Vendor/KissXML/**/*.{h,m}",
       "dependencies": {
-        "XMPPFramework/Core": [
-
-        ]
+        
       }
     },
     {
