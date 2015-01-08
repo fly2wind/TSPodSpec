@@ -95,10 +95,7 @@
     },
     {
       "name": "KissXML",
-      "source_files": "Vendor/KissXML/**/*.{h,m}",
-      "dependencies": {
-        
-      }
+      "source_files": "Vendor/KissXML/**/*.{h,m}"
     },
     {
       "name": "BandwidthMonitor",
