@@ -95,7 +95,12 @@
     },
     {
       "name": "KissXML",
-      "source_files": "Vendor/KissXML/**/*.{h,m}"
+      "source_files": "Vendor/KissXML/**/*.{h,m}",
+      "dependencies": {
+        "XMPPFramework/Core": [
+
+        ]
+      }
     },
     {
       "name": "BandwidthMonitor",
