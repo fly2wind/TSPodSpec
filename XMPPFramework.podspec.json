@@ -86,6 +86,9 @@
     {
       "name": "KissXML",
       "source_files": "Vendor/KissXML/**/*.{h,m}",
+      "platforms": [
+        "ios"
+      ],
       "dependencies": {
         "XMPPFramework/Core": [
 
@@ -350,9 +353,6 @@
       "source_files": "Extensions/XEP-0153/**/*.{h,m}",
       "dependencies": {
         "XMPPFramework/Core": [
-
-        ],
-        "XMPPFramework/XEP-0054": [
 
         ]
       },
