@@ -1,0 +1,28 @@
+{
+  "name": "Vitamio-SDK",
+  "version": "4.2.6",
+  "license": {
+    "type": "Copyright",
+    "text": "LICENSE  ©2013 Vitamio, Inc. All rights reserved."
+  },
+  "summary": "Vitamio SDK for iOS.",
+  "homepage": "http://www.vitamio.org",
+  "authors": {
+    "vitamio": "sales@yixia.com"
+  },
+  "source": {
+    "git": "https://github.com/yixia/Vitamio-iOS.git"
+  },
+  "requires_arc": false,
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source_files": "Vitamio/include/Vitamio/*.h",
+  "preserve_paths": "Vitamio/*.a",
+  "frameworks": [
+    "AVFoundation", "AudioToolbox", "CoreGraphics", "CoreMedia", "CoreVideo", "MediaPlayer", "OpenGLES", "QuartzCore", "UIKit"
+  ],
+  "libraries": [
+    "bz2", "z", "stdc++", "iconv"
+  ]
+}
