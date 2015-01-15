@@ -1,5 +1,5 @@
 {
-  "name": "Vitamio-SDK",
+  "name": "VitamioSDK",
   "version": "4.2.6",
   "license": {
     "type": "Copyright",
@@ -16,7 +16,7 @@
   },
   "requires_arc": false,
   "platforms": {
-    "ios": "7.0"
+    "ios": null
   },
   "source_files": "Vitamio/include/Vitamio/*.h",
   "preserve_paths": "Vitamio/*.a",
