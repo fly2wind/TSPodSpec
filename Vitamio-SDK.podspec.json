@@ -11,7 +11,8 @@
     "vitamio": "sales@yixia.com"
   },
   "source": {
-    "git": "https://github.com/yixia/Vitamio-iOS.git"
+    "git": "https://github.com/yixia/Vitamio-iOS.git",
+    "tag": "v4.2.6"
   },
   "requires_arc": false,
   "platforms": {
